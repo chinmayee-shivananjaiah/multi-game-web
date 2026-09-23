@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Epic Games Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <p>Player vs Computer</p>
+    </header>
+
+    <div class="rps-buttons">
+        <button onclick="playGame('Rock')">Rock</button>
+        <button onclick="playGame('Paper')">Paper</button>
+        <button onclick="playGame('Scissors')">Scissors</button>
+    </div>
+
+    <div id="resultText" class="game-result">
+        <p>Choose your move to play against the computer!</p>
+    </div>
+
+    <div class="game-actions">
+        <button onclick="restartGame()">Play Again</button>
+        <button onclick="window.location.href='index.html'">Exit</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Epic Games Hub</p>
+    </footer>
+
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>

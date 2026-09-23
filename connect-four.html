@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four - Epic Games Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Connect Four</h1>
+        <p>Select Game Mode</p>
+    </header>
+
+    <div class="mode-selection">
+        <button onclick="startGame('player')">Player vs Player</button>
+        <button onclick="startGame('computer')">Player vs Computer</button>
+    </div>
+
+    <div id="connectFourBoard" class="connect-four-board"></div>
+
+    <div class="game-actions">
+        <button onclick="restartGame()">Play Again</button>
+        <button onclick="window.location.href='index.html'">Exit</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Epic Games Hub</p>
+    </footer>
+
+    <script src="connect-four.js"></script>
+</body>
+</html>
